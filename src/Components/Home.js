@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Zoom } from "react-awesome-reveal";
 const Home = () => {
   return (
     <div className="nav" id="home">
@@ -76,16 +76,18 @@ const Home = () => {
           </div>
         </div>
       </nav>
-      <div className="home-text">
-        <h5>Hi, i'm Favour Isikaku</h5>
-        <h1>
-          i'm a <span>Front-end Developer</span>
-        </h1>
-        <p>
-          i am a front-end developer. i can provide clean code and pixel perfect
-          design
-        </p>
-      </div>
+      <Zoom triggerOnce>
+        <div className="home-text">
+          <h5>Hi, i'm Favour Isikaku</h5>
+          <h1>
+            i'm a <span>Front-end Developer</span>
+          </h1>
+          <p>
+            i am a front-end developer. i can provide clean code and pixel
+            perfect design
+          </p>
+        </div>
+      </Zoom>
     </div>
   );
 };

@@ -36,7 +36,8 @@ a {
 }
 .home-text {
   margin-top: 300px;
-  margin-left: 20%;
+  margin-left: 40%;
+  width: 100%;
   /* width: 400px; */
   color: rgb(224, 214, 214);
 }
@@ -361,8 +362,10 @@ a {
   .home-text {
     margin-left: 20px;
     margin-top: 150px;
+    width: 90%;
     margin-bottom: 100px;
   }
+
   .about-header {
     flex-direction: column;
     padding-top: 40px;
