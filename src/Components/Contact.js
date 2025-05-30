@@ -27,7 +27,9 @@ const Contact = () => {
               <ul className="icons">
                 <div className="d-flex">
                   <i class="fa-solid fa-envelope"></i>
-                  <li>Favourisikaku@yahoo.com</li>
+                  <a href="mailto:Isikakufavour@yahoo.com">
+                    <li>Isikakufavour@yahoo.com</li>
+                  </a>
                 </div>
                 <div className="icon-2">
                   <a href="https://github.com/favourisikaku" className="d-flex">
@@ -37,7 +39,9 @@ const Contact = () => {
                 </div>
                 <div className="d-flex icon-3">
                   <i class="fa-solid fa-phone"></i>
-                  <li>+234 814 089 2026</li>
+                  <a href="tel:+2348140892026">
+                    <li>+234 814 089 2026</li>
+                  </a>
                 </div>
                 <div className="icon-4">
                   <a
