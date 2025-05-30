@@ -19,11 +19,12 @@ const About = () => {
                 Favour <span>Isikaku</span>
               </h1>
               <p>
-                As a developer, i strive to deiver to create
-                beautiful,performant websites from stunning designs,i enjoy
-                creating extremely visual and interactive experiences using any
-                technology that will deliver the best results for customer
-                satisfaction
+                I'm a passionate developer dedicated to building beautiful and
+                high-performing and stunning websites. I enjoy turning creative
+                designs into interactive digital experiences, using the best
+                technologies available to ensure both functionality and customer
+                satisfaction. Whether it's a sleek portfolio or a dynamic web
+                app, I aim to deliver top-quality results every time.
               </p>
               <a href="#Contact">
                 <button className="about-btn">Let's talk</button>
