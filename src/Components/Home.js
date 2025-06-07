@@ -77,7 +77,7 @@ const Home = () => {
         </div>
       </nav>
       <Zoom triggerOnce>
-        <div className="home-text">
+        <div className="home-text pb-100">
           <h5>Hi, i'm Favour Isikaku</h5>
           <h1>
             i'm a <span>Front-end Developer</span>
