@@ -7,11 +7,11 @@ const ServicesIntro = () => (
     <div className="wrap">
       <p className="eyebrow">Services</p>
       <h1 className="contact__title page-intro__title">
-        Frontend engineering, from the first requirement to <em>launch.</em>
+        Frontend work, from the first sketch to <em>going live.</em>
       </h1>
       <p className="contact__sub">
-        New products, features, upgrades and performance work for brands, startups and
-        teams. Open any area below to see what it covers.
+        New builds, new features, redesigns and speed fixes. Everything I do is listed below,
+        grouped so it's easy to scan.
       </p>
       <div className="hero__cta">
         <Link to="/contact" className="btn btn--gold">Start a project →</Link>

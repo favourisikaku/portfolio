@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 import { services } from "../data";
 
-const numberWords = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight",
-  "Nine", "Ten", "Eleven", "Twelve"];
-
 const Services = () => {
   const [open, setOpen] = useState(0);
 
@@ -15,11 +12,11 @@ const Services = () => {
         <div className="split-head">
           <div>
             <p className="eyebrow">Scope of work</p>
-            <h2 className="title">What I bring <em>to your team.</em></h2>
+            <h2 className="title">What I can <em>help with.</em></h2>
           </div>
           <Reveal as="p" className="split-head__note">
-            {numberWords[services.length] || services.length} disciplines, from the first
-            requirement to launch. Open one to see what it covers.
+            The kinds of work I take on, from a first version to fixing an existing site.
+            Open any of them for the details.
           </Reveal>
         </div>
 

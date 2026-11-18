@@ -31,11 +31,11 @@ const Process = () => {
         <div className="split-head">
           <div>
             <p className="eyebrow">How I work</p>
-            <h2 className="title">From first call <em>to launch day.</em></h2>
+            <h2 className="title">How a project <em>usually goes.</em></h2>
           </div>
           <Reveal as="p" className="split-head__note">
-            Every project follows the same five steps, so you always know what's happening
-            next. Scroll and watch them light up.
+            Most projects follow these five steps, so you always know which one we're on
+            and what comes next.
           </Reveal>
         </div>
         <ol className="proc" ref={ref}>

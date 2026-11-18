@@ -49,13 +49,14 @@ const Home = () => {
             </span>
           </p>
           <h1 className="hero__title">
-            <span className="line"><span style={{ "--d": "0.1s" }}>Premium websites</span></span>
-            <span className="line"><span style={{ "--d": "0.25s" }}>built to work</span></span>
-            <span className="line"><span style={{ "--d": "0.4s" }}><em>flawlessly.</em></span></span>
+            <span className="line"><span style={{ "--d": "0.1s" }}>I build websites</span></span>
+            <span className="line"><span style={{ "--d": "0.25s" }}>that load fast and</span></span>
+            <span className="line"><span style={{ "--d": "0.4s" }}><em>just work.</em></span></span>
           </h1>
           <p className="hero__intro">
-            I help brands, startups and businesses launch fast, responsive websites and web
-            apps — turning ideas and designs into products people enjoy using.
+            I'm Favour, a frontend developer. For the past four years I've been building
+            web apps with React, Next.js and TypeScript: dashboards, forms, online stores
+            and the occasional marketing site.
           </p>
           <div className="hero__cta">
             <Link to="/contact" className="btn btn--gold">Start a project →</Link>
@@ -64,7 +65,7 @@ const Home = () => {
           <div className="hero__rotator">
             {heroMeta.map((m, i) => (
               <span key={m.label} className={i === meta ? "is-on" : ""}>
-                <b>{m.label}</b> — {m.value}
+                <b>{m.label}:</b> {m.value}
               </span>
             ))}
           </div>

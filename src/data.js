@@ -1,4 +1,4 @@
-// Central content file — edit text, links and lists here without touching the layout.
+// Central content file: edit text, links and lists here without touching the layout.
 import netflix from "./assets/netflix.jpg";
 import tesla from "./assets/tesla.mp4";
 import movies from "./assets/movies.png";
@@ -31,7 +31,7 @@ export const heroMeta = [
   { label: "Focus", value: "Fast, accessible, mobile-friendly UI" },
 ];
 
-// The tools you use — shown in the Toolkit section
+// The tools you use, shown in the Toolkit section
 export const toolkit = [
   {
     title: "Frontend",
@@ -68,7 +68,7 @@ export const toolkit = [
 ];
 
 // Services: numbered disciplines, each opening to show what it covers.
-// `text` is optional — leave it out to show just the list.
+// `text` is optional; leave it out to show just the list.
 export const services = [
   {
     title: "Frontend engineering",
@@ -76,7 +76,7 @@ export const services = [
       "React.js applications",
       "Next.js sites and apps",
       "TypeScript codebases",
-      "Modern JavaScript (ES6+)",
+      "JavaScript (ES6+)",
       "Reusable UI component libraries",
       "Responsive, mobile-first interfaces",
     ],
@@ -107,8 +107,8 @@ export const services = [
       "Figma to production",
       "Tailwind CSS builds",
       "Bootstrap builds",
-      "Pixel-close, polished layouts",
-      "Smooth animations and interactions",
+      "Matching the design closely, spacing included",
+      "Small animations where they actually help",
     ],
   },
   {
@@ -168,23 +168,23 @@ export const tickerSmall = [
 export const process = [
   {
     title: "Discover",
-    text: "We talk through your goals, audience and what success looks like.",
+    text: "We talk about what you need, who it's for and what a good result looks like.",
   },
   {
     title: "Plan",
-    text: "I map out pages, features and a clear timeline before writing code.",
+    text: "I list the pages and features, agree what comes first, and give you a timeline.",
   },
   {
     title: "Build",
-    text: "I develop in small steps and share progress links you can click through.",
+    text: "I build in small pieces and send you links, so you can click around as it grows.",
   },
   {
     title: "Refine",
-    text: "We test on real devices, polish the details and fix every rough edge.",
+    text: "We test on phones and laptops, fix whatever feels off and tidy up the details.",
   },
   {
     title: "Launch",
-    text: "Your site goes live on fast hosting, and I stay around for support.",
+    text: "The site goes live, and I'm still around afterwards if something needs changing.",
   },
 ];
 
@@ -193,7 +193,7 @@ export const projects = [
     title: "Gym Website",
     category: "Business website",
     description:
-      "A premium fitness brand site where visitors explore workouts tailored to their goals and discover services and facilities.",
+      "A gym website where visitors can browse workouts by goal and see the classes and facilities on offer.",
     media: gym,
     url: "https://favourisikaku-gym.vercel.app",
     tags: ["React", "Bootstrap"],
@@ -202,7 +202,7 @@ export const projects = [
     title: "Amazon Clone",
     category: "E-commerce",
     description:
-      "A full e-commerce experience with product browsing, a working cart and Stripe-powered checkout.",
+      "My take on an Amazon-style store: product listings, a working cart and a checkout flow.",
     media: amazon,
     url: "https://amazon-clone-seven-sand.vercel.app",
     tags: ["React", "Bootstrap"],
@@ -211,7 +211,7 @@ export const projects = [
     title: "Netflix Clone",
     category: "Streaming interface",
     description:
-      "A faithful streaming-platform interface with a browsable movie library and trailer playback.",
+      "A Netflix-style streaming interface with a browsable movie library and trailers that play in place.",
     media: netflix,
     url: "https://favourisikaku-netflix-clone.vercel.app",
     tags: ["React", "Bootstrap", "REST API"],
@@ -220,7 +220,7 @@ export const projects = [
     title: "Tesla Clone",
     category: "Product showcase",
     description:
-      "A product showcase presenting vehicle models with performance metrics and range details.",
+      "A Tesla-inspired product page that walks through each model with its range and performance numbers.",
     media: tesla,
     video: true,
     url: "https://favourisikaku-tesla-clone.vercel.app",
@@ -230,7 +230,7 @@ export const projects = [
     title: "Movie Discovery",
     category: "Web app",
     description:
-      "Search and explore films and actors with detail pages powered by a live movie database API.",
+      "Search for films and actors and open detail pages, all pulled live from a movie database API.",
     media: movies,
     url: "https://favourisikaku-movies-app.vercel.app",
     tags: ["React", "Bootstrap", "REST API"],
@@ -239,7 +239,7 @@ export const projects = [
     title: "Travel & Tour",
     category: "Travel platform",
     description:
-      "An immersive travel platform showcasing destinations in Indonesia, Malaysia and France.",
+      "A travel site for trips to Indonesia, Malaysia and France, built around big photos and simple trip pages.",
     media: trippy,
     url: "https://favourisikaku-travel-tour.vercel.app",
     tags: ["React", "Bootstrap"],

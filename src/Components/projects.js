@@ -77,8 +77,7 @@ const Projects = ({ asPage = false }) => {
           <div>
             <p className="eyebrow">Selected work</p>
             <Heading className="title title--xl">
-              Projects I've <mark>designed,</mark> <mark>built</mark> and{" "}
-              <mark>launched</mark> on the web.
+              A few things I've <mark>built</mark> and <mark>put online.</mark>
             </Heading>
           </div>
           <div className="counter" aria-hidden="true">
@@ -199,7 +198,7 @@ const Projects = ({ asPage = false }) => {
         {!asPage && (
           <div className="work__more work__more--plain">
             <span>
-              Every project has its own live link. Browse them all on one page.
+              Each project links to the live site. They're all on one page here.
             </span>
             <Link to="/work">See the work page →</Link>
           </div>

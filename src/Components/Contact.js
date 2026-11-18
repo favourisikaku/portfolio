@@ -7,7 +7,7 @@ const modes = {
   project: {
     tab: "I have a project",
     title: <>Tell me what you want <em>built.</em></>,
-    sub: "Share the idea, the site that needs a refresh, or the feature you're stuck on. I'll reply with questions and a clear first step.",
+    sub: "Tell me a bit about the idea, the site that needs work, or the feature you're stuck on. I'll reply with a few questions and a suggested first step.",
     placeholder: "Tell me about the project, the problem, and where you want to get to.",
   },
   hiring: {
@@ -31,7 +31,7 @@ const Contact = ({ asPage = false }) => {
   const submit = (e) => {
     e.preventDefault();
     const subject = form.subject || (mode === "hiring" ? "Job opportunity" : "New project enquiry");
-    const body = `${form.message}\n\n— ${form.email}`;
+    const body = `${form.message}\n\nFrom: ${form.email}`;
     window.location.href = `mailto:${profile.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 

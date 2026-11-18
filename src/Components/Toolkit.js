@@ -9,10 +9,10 @@ const Toolkit = () => {
         <div className="split-head">
           <div>
             <p className="eyebrow">Toolkit</p>
-            <h2 className="title">The tools <em>I build with.</em></h2>
+            <h2 className="title">What I <em>work with.</em></h2>
           </div>
           <Reveal as="p" className="split-head__note">
-            A modern, reliable stack for building fast, maintainable products.
+            The languages, libraries and tools I reach for most days.
           </Reveal>
         </div>
 
